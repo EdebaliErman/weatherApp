@@ -1,0 +1,78 @@
+
+body {
+    
+    background-color: rgb(172, 184, 195);
+    margin-top: 11%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+  
+}
+
+#map {
+    text-align: center;
+    border-radius: 15rem;
+    border: 2px solid goldenrod;
+    height: 3rem;
+    width: 20rem;
+    margin-top: 1rem;
+    box-shadow: 0.3rem 0.1rem 0.3rem 0.2rem rgb(32, 97, 218);
+    font-size: 36px;
+    color: rgb(84, 104, 132);
+    padding: 0.5rem;
+}
+
+#btn {
+    border-radius: 15rem;
+    margin-top: 1rem;
+    background-color: rgb(226, 223, 223);
+    color: rgb(84, 104, 132);
+    font-size: 24px;
+    height: 3rem;
+    width: 10rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.2rem rgb(32, 125, 218);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn:hover {
+    background-color: rgb(171, 203, 229);
+    color: black;
+    font-size: 24px;
+    height: 3rem;
+    width: 10rem;
+    box-shadow: inset 0.1rem 0.1rem 1.3rem 0.8rem rgb(222, 222, 219);
+}
+
+.container {
+   
+    border-radius: 7rem;
+    height: 40rem;
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: inset 0.1rem 0.1rem 3.0rem 0.1rem rgb(11, 11, 11);
+
+}
+
+.weather {
+    animation-name: rotate;
+    animation-duration: 5s;
+  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1.3rem;
+    font-size: 36px;
+    color: rgb(232, 160, 5);
+    text-shadow: 0.2rem 1.9rem 1.1rem rgb(70, 69, 69);
+}
+
+@keyframes rotate {
+    from {
+        text-shadow: 0.2rem 1.9rem 1.1rem rgb(70, 69, 69);
+    }
+
+    to {
+        text-shadow: 0.2rem 4.9rem 0.1remrgb(172, 184, 195);
+    }
+}
